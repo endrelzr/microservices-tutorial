@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	pb "microservices-tutorial/consignment-service/proto/consignment"
+	pb "github.com/endrelzr/microservices-tutorial/consignment-service/proto/consignment"
 
 	"golang.org/x/net/context"
 
@@ -16,7 +16,6 @@ import (
 )
 
 const (
-	address         = "localhost:50051"
 	defaultFilename = "consignment.json"
 )
 

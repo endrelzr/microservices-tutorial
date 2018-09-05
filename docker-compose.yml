@@ -7,7 +7,7 @@ services:
     build: ./consignment-cli
     environment:
       MICRO_REGISTRY: "mdns"
-
+      
   consignment-service:
     build: ./consignment-service
     ports:
